@@ -1,8 +1,9 @@
 {
-  "name": "bio-model",
+  "name": "biolib",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "node dist/index.js",
     "watch": "./node_modules/.bin/tsc -w",
@@ -11,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebi-uniprot/bio-model.git"
+    "url": "git+https://github.com/ebi-uniprot/biolib.git"
   },
   "author": "Mahdi Mahmoudy <mmahmoudy@ebi.ac.uk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ebi-uniprot/bio-model/issues"
+    "url": "https://github.com/ebi-uniprot/biolib/issues"
   },
-  "homepage": "https://github.com/ebi-uniprot/bio-model#readme",
+  "homepage": "https://github.com/ebi-uniprot/biolib#readme",
   "devDependencies": {
     "typescript": "^2.7.2"
   },
