@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "watch": "./node_modules/.bin/tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ebi-uniprot/bio-model/issues"
   },
-  "homepage": "https://github.com/ebi-uniprot/bio-model#readme"
+  "homepage": "https://github.com/ebi-uniprot/bio-model#readme",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
 }
