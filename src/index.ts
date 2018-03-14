@@ -1,10 +1,6 @@
 
-class Sample {
-  test() {
-    console.log("hello, world!");
-  }
-}
+import Protein from './protein/protein';
 
-const s: Sample = new Sample();
+const ABPP: Protein = new Protein('P05067');
 
-s.test();
+console.log(ABPP.accession);
